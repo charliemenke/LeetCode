@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-
-	fmt.Println(strconv.FormatBool(IsValid(("(])"))))
+	fmt.Println(strconv.FormatBool(apple.IsValid(("(])"))))
 	//MergeTwoLists([]ListNode)
 }
